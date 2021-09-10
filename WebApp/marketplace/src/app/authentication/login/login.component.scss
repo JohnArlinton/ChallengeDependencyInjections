@@ -1,0 +1,19 @@
+.contain-login{
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+
+  .title-form{
+    padding-left: 15px;
+  }
+
+  .row-form{
+    display: flex;
+    flex-direction: column;
+  
+    mat-form-field{
+      width: 100%;
+    }
+  }
+}

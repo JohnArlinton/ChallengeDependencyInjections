@@ -1,0 +1,54 @@
+<div class="contain-login">
+  <h1 class="title-form">Post new</h1>
+  <form [formGroup]="loginForm" (ngSubmit)="submit()">
+    <div class="row-form">
+      <div class="col">
+        <mat-form-field appearance="outline">
+          <mat-label>Title</mat-label>
+          <input matInput formControlName="title" required>
+          <mat-error *ngIf="loginForm.controls.title.status == 'INVALID'">{{getErrorMessage(loginForm.controls.title.errors)}}</mat-error>
+        </mat-form-field>
+      </div>
+      <div class="col">
+        <mat-form-field appearance="outline">
+          <mat-label>Picture Url</mat-label>
+          <input matInput  formControlName="pictureUrl" required>
+          <mat-error *ngIf="loginForm.controls.pictureUrl.status == 'INVALID'">{{getErrorMessage(loginForm.controls.pictureUrl.errors)}}</mat-error>
+        </mat-form-field>
+      </div>
+      <div class="col">
+        <mat-form-field appearance="outline">
+          <mat-label>Description</mat-label>
+          <input matInput  formControlName="description" required>
+          <mat-error *ngIf="loginForm.controls.description.status == 'INVALID'">{{getErrorMessage(loginForm.controls.description.errors)}}</mat-error>
+        </mat-form-field>
+      </div>
+      <div class="col">
+        <mat-form-field appearance="outline">
+          <mat-label>Location</mat-label>
+          <input matInput  formControlName="location" required>
+          <mat-error *ngIf="loginForm.controls.location.status == 'INVALID'">{{getErrorMessage(loginForm.controls.location.errors)}}</mat-error>
+        </mat-form-field>
+      </div>
+      <div class="col">
+        <mat-form-field appearance="outline">
+          <mat-label>Category</mat-label>
+          <mat-select formControlName="categoryId" name="Category">
+            <mat-option [value]="1">
+              Product
+            </mat-option>
+            <mat-option [value]="2">
+              Service
+            </mat-option>
+            <mat-option [value]="3">
+              I’m looking for
+            </mat-option>
+          </mat-select>
+          <mat-error *ngIf="loginForm.controls.categoryId.status == 'INVALID'">{{getErrorMessage(loginForm.controls.categoryId.errors)}}</mat-error>
+        </mat-form-field>
+      </div>
+    </div>
+    
+    <button mat-button matDialogClose [disabled]="!this.loginForm.valid" type="submit">Save</button>
+  </form>
+</div>

@@ -1,0 +1,8 @@
+<div class="base-container" style="flex-direction: column;">
+  <div class="contain-items">
+    <app-offer-item *ngFor="let item of paging.currentItems" [itemName]="item.name" [imageName]="item.image"></app-offer-item>
+  </div>
+  <div class="card-footer pb-0 pt-3">
+    <button mat-raised-button color="primary" *ngFor="let buttonPage of buttonsByPage" (click)="changeButtonsPage(buttonPage)">{{buttonPage}}</button>
+  </div>
+</div>  

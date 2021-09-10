@@ -1,0 +1,259 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/johnarlinton/Downloads/marketplace-master/Api/Marketplace.Api/Marketplace.Api.csproj": {}
+  },
+  "projects": {
+    "/Users/johnarlinton/Downloads/marketplace-master/Api/Marketplace.Api/Marketplace.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/johnarlinton/Downloads/marketplace-master/Api/Marketplace.Api/Marketplace.Api.csproj",
+        "projectName": "Marketplace.Api",
+        "projectPath": "/Users/johnarlinton/Downloads/marketplace-master/Api/Marketplace.Api/Marketplace.Api.csproj",
+        "packagesPath": "/Users/johnarlinton/.nuget/packages/",
+        "outputPath": "/Users/johnarlinton/Downloads/marketplace-master/Api/Marketplace.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/johnarlinton/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/johnarlinton/Downloads/marketplace-master/Api/Marketplace.Bl/Marketplace.Bl.csproj": {
+                "projectPath": "/Users/johnarlinton/Downloads/marketplace-master/Api/Marketplace.Bl/Marketplace.Bl.csproj"
+              },
+              "/Users/johnarlinton/Downloads/marketplace-master/Api/Marketplace.Core/Marketplace.Core.csproj": {
+                "projectPath": "/Users/johnarlinton/Downloads/marketplace-master/Api/Marketplace.Core/Marketplace.Core.csproj"
+              },
+              "/Users/johnarlinton/Downloads/marketplace-master/Api/Marketplace.Dal/Marketplace.Dal.csproj": {
+                "projectPath": "/Users/johnarlinton/Downloads/marketplace-master/Api/Marketplace.Dal/Marketplace.Dal.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/johnarlinton/Downloads/marketplace-master/Api/Marketplace.Bl/Marketplace.Bl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/johnarlinton/Downloads/marketplace-master/Api/Marketplace.Bl/Marketplace.Bl.csproj",
+        "projectName": "Marketplace.Bl",
+        "projectPath": "/Users/johnarlinton/Downloads/marketplace-master/Api/Marketplace.Bl/Marketplace.Bl.csproj",
+        "packagesPath": "/Users/johnarlinton/.nuget/packages/",
+        "outputPath": "/Users/johnarlinton/Downloads/marketplace-master/Api/Marketplace.Bl/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/johnarlinton/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/johnarlinton/Downloads/marketplace-master/Api/Marketplace.Core/Marketplace.Core.csproj": {
+                "projectPath": "/Users/johnarlinton/Downloads/marketplace-master/Api/Marketplace.Core/Marketplace.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/johnarlinton/Downloads/marketplace-master/Api/Marketplace.Core/Marketplace.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/johnarlinton/Downloads/marketplace-master/Api/Marketplace.Core/Marketplace.Core.csproj",
+        "projectName": "Marketplace.Core",
+        "projectPath": "/Users/johnarlinton/Downloads/marketplace-master/Api/Marketplace.Core/Marketplace.Core.csproj",
+        "packagesPath": "/Users/johnarlinton/.nuget/packages/",
+        "outputPath": "/Users/johnarlinton/Downloads/marketplace-master/Api/Marketplace.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/johnarlinton/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/johnarlinton/Downloads/marketplace-master/Api/Marketplace.Dal/Marketplace.Dal.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/johnarlinton/Downloads/marketplace-master/Api/Marketplace.Dal/Marketplace.Dal.csproj",
+        "projectName": "Marketplace.Dal",
+        "projectPath": "/Users/johnarlinton/Downloads/marketplace-master/Api/Marketplace.Dal/Marketplace.Dal.csproj",
+        "packagesPath": "/Users/johnarlinton/.nuget/packages/",
+        "outputPath": "/Users/johnarlinton/Downloads/marketplace-master/Api/Marketplace.Dal/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/johnarlinton/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/johnarlinton/Downloads/marketplace-master/Api/Marketplace.Core/Marketplace.Core.csproj": {
+                "projectPath": "/Users/johnarlinton/Downloads/marketplace-master/Api/Marketplace.Core/Marketplace.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

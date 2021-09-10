@@ -1,0 +1,15 @@
+.card-item{
+  position: relative;
+  max-height: 650px;
+  display: flex;
+  flex-direction: column;
+
+  .card-title{
+    background-color: #000;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top: 1.5em;
+    padding: 10px 5px;
+  }
+}

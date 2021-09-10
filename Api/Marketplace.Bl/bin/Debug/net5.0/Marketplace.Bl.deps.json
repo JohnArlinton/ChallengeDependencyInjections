@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Marketplace.Bl/1.0.0": {
+        "dependencies": {
+          "Marketplace.Core": "1.0.0"
+        },
+        "runtime": {
+          "Marketplace.Bl.dll": {}
+        }
+      },
+      "Marketplace.Core/1.0.0": {
+        "runtime": {
+          "Marketplace.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Marketplace.Bl/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Marketplace.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

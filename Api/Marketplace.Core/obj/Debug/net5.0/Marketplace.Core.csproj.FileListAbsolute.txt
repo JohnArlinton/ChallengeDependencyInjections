@@ -1,0 +1,12 @@
+/Users/johnarlinton/Downloads/marketplace-master/Api/Marketplace.Core/bin/Debug/net5.0/Marketplace.Core.deps.json
+/Users/johnarlinton/Downloads/marketplace-master/Api/Marketplace.Core/bin/Debug/net5.0/Marketplace.Core.dll
+/Users/johnarlinton/Downloads/marketplace-master/Api/Marketplace.Core/bin/Debug/net5.0/ref/Marketplace.Core.dll
+/Users/johnarlinton/Downloads/marketplace-master/Api/Marketplace.Core/bin/Debug/net5.0/Marketplace.Core.pdb
+/Users/johnarlinton/Downloads/marketplace-master/Api/Marketplace.Core/obj/Debug/net5.0/Marketplace.Core.csproj.AssemblyReference.cache
+/Users/johnarlinton/Downloads/marketplace-master/Api/Marketplace.Core/obj/Debug/net5.0/Marketplace.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/johnarlinton/Downloads/marketplace-master/Api/Marketplace.Core/obj/Debug/net5.0/Marketplace.Core.AssemblyInfoInputs.cache
+/Users/johnarlinton/Downloads/marketplace-master/Api/Marketplace.Core/obj/Debug/net5.0/Marketplace.Core.AssemblyInfo.cs
+/Users/johnarlinton/Downloads/marketplace-master/Api/Marketplace.Core/obj/Debug/net5.0/Marketplace.Core.csproj.CoreCompileInputs.cache
+/Users/johnarlinton/Downloads/marketplace-master/Api/Marketplace.Core/obj/Debug/net5.0/Marketplace.Core.dll
+/Users/johnarlinton/Downloads/marketplace-master/Api/Marketplace.Core/obj/Debug/net5.0/ref/Marketplace.Core.dll
+/Users/johnarlinton/Downloads/marketplace-master/Api/Marketplace.Core/obj/Debug/net5.0/Marketplace.Core.pdb

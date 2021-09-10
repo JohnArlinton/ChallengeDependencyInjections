@@ -1,0 +1,88 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Marketplace.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Marketplace.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Marketplace.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Marketplace.Core/1.0.0": {
+      "type": "project",
+      "path": "../Marketplace.Core/Marketplace.Core.csproj",
+      "msbuildProject": "../Marketplace.Core/Marketplace.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "Marketplace.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/johnarlinton/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/johnarlinton/Downloads/marketplace-master/Api/Marketplace.Bl/Marketplace.Bl.csproj",
+      "projectName": "Marketplace.Bl",
+      "projectPath": "/Users/johnarlinton/Downloads/marketplace-master/Api/Marketplace.Bl/Marketplace.Bl.csproj",
+      "packagesPath": "/Users/johnarlinton/.nuget/packages/",
+      "outputPath": "/Users/johnarlinton/Downloads/marketplace-master/Api/Marketplace.Bl/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/johnarlinton/.config/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "/Users/johnarlinton/Downloads/marketplace-master/Api/Marketplace.Core/Marketplace.Core.csproj": {
+              "projectPath": "/Users/johnarlinton/Downloads/marketplace-master/Api/Marketplace.Core/Marketplace.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
